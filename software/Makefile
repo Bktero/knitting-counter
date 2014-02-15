@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: tricot.mcp
+# Date: Mon Jul 09 21:50:58 2012
+
+AS = MPASMWIN.exe
+CC = mcc18.exe
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+tricot.cof : tricot.o
+	$(LD) /p18F25K22 /l"C:\Program Files\Microchip\mplabc18\lib" "..\..\..\..\Program Files\Microchip\mplabc18\bin\LKR\18f25k22_g.lkr" "tricot.o" /u_CRUNTIME /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /z__MPLAB_DEBUGGER_PK3=1 /z__ICD2RAM=1 /m"tricot.map" /w /o"tricot.cof"
+
+tricot.o : tricot.c ../../../../Program\ Files/Microchip/mplabc18/h/delays.h tricot.c ../../../../Program\ Files/Microchip/mplabc18/h/p18f25k22.h ../../../../Program\ Files/Microchip/mplabc18/h/p18cxxx.h
+	$(CC) -p=18F25K22 "tricot.c" -fo="tricot.o" -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1 -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+
+clean : 
+	$(RM) "tricot.o" "tricot.cof" "tricot.hex" "tricot.map"
+
