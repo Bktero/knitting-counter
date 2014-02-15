@@ -1,0 +1,15 @@
+PCBNEW-LibDoc----V1  dim. 16 sept. 2012 16:28:35 CEST
+#
+$MODULE AFF***
+Li AFF***
+Cd Afficheur 7 segments
+Kw AFFICHEUR
+$EndMODULE
+#
+$MODULE AFF_7SEG_10PINS
+Li AFF_7SEG_10PINS
+Cd Kingbright SC56-11GWA
+Kw 7segments display
+$EndMODULE
+#
+$EndLIBDOC

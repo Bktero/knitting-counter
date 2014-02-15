@@ -1,0 +1,462 @@
+# EESchema Netlist Version 1.1 created  29/08/2013 20:57:42
+(
+ ( /5054D1AC AFF_7SEG_10PINS AFF1 7SEGMENTS
+  ( 1 /SE )
+  ( 2 /SD )
+  ( 3 N-000038 )
+  ( 4 /SC )
+  ( 5 /SDP )
+  ( 6 /SB )
+  ( 7 /SA )
+  ( 8 ? )
+  ( 9 /SF )
+  ( 10 /SG )
+ )
+ ( /50550A79 AFF_7SEG_10PINS AFF2 7SEGMENTS
+  ( 1 /SE )
+  ( 2 /SD )
+  ( 3 N-000019 )
+  ( 4 /SC )
+  ( 5 /SDP )
+  ( 6 /SB )
+  ( 7 /SA )
+  ( 8 ? )
+  ( 9 /SF )
+  ( 10 /SG )
+ )
+ ( /50550A8A AFF_7SEG_10PINS AFF3 7SEGMENTS
+  ( 1 /SE )
+  ( 2 /SD )
+  ( 3 N-000008 )
+  ( 4 /SC )
+  ( 5 /SDP )
+  ( 6 /SB )
+  ( 7 /SA )
+  ( 8 ? )
+  ( 9 /SF )
+  ( 10 /SG )
+ )
+ ( /506D412D C2 C1 100n
+  ( 1 GND )
+  ( 2 /VDD )
+ )
+ ( /50353531 LED-5MM D1 LED
+  ( 1 /VDD )
+  ( 2 N-000028 )
+ )
+ ( /5055C0B2 LED-3MM D2 LED
+  ( 1 N-000029 )
+  ( 2 N-000054 )
+ )
+ ( /5059CBA9 LED-5MM D3 LED
+  ( 1 N-000056 )
+  ( 2 N-000049 )
+ )
+ ( /5059CB92 LED-5MM D4 LED
+  ( 1 N-000050 )
+  ( 2 N-000048 )
+ )
+ ( /5059CA14 SIL-6 ICSP1 PICKIT3_ICSP
+  ( 1 N-000040 )
+  ( 2 /VDD )
+  ( 3 GND )
+  ( 4 N-000051 )
+  ( 5 N-000027 )
+  ( 6 ? )
+ )
+ ( /50353453 TO220_123 LM7805C1 LM7805C
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 /VDD )
+ )
+ ( /506ADC76 Connecteur_blanc P1 CONN_2
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5054D163 DIP-28__300 PIC1 PIC18(L)F2XK22
+  ( 1 N-000040 )
+  ( 2 N-000046 )
+  ( 3 N-000012 )
+  ( 4 N-000021 )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 N-000047 )
+  ( 12 N-000037 )
+  ( 13 N-000031 )
+  ( 14 N-000032 )
+  ( 15 N-000033 )
+  ( 16 N-000034 )
+  ( 17 N-000035 )
+  ( 18 N-000036 )
+  ( 19 GND )
+  ( 20 /VDD )
+  ( 21 N-000044 )
+  ( 22 N-000030 )
+  ( 23 N-000045 )
+  ( 24 N-000029 )
+  ( 25 N-000056 )
+  ( 26 N-000050 )
+  ( 27 N-000027 )
+  ( 28 N-000051 )
+ )
+ ( /5054D51D TO92 Q1 BC547
+  ( 1 GND )
+  ( 2 N-000006 )
+  ( 3 N-000039 )
+ )
+ ( /50550A78 TO92 Q2 BC547
+  ( 1 GND )
+  ( 2 N-000013 )
+  ( 3 N-000014 )
+ )
+ ( /50550A8B TO92 Q3 BC547
+  ( 1 GND )
+  ( 2 N-000009 )
+  ( 3 N-000010 )
+ )
+ ( /5035358D R4 R1 470
+  ( 1 N-000028 )
+  ( 2 GND )
+ )
+ ( /5054D7E2 R4 R2 390
+  ( 1 N-000037 )
+  ( 2 /SA )
+ )
+ ( /5054D7E9 R4 R3 390
+  ( 1 N-000032 )
+  ( 2 /SG )
+ )
+ ( /5054D8C7 R4 R4 4,7k
+  ( 1 N-000040 )
+  ( 2 /VDD )
+ )
+ ( /5054D7D7 R4 R5 390
+  ( 1 N-000047 )
+  ( 2 /SB )
+ )
+ ( /5054D7E6 R4 R6 390
+  ( 1 N-000031 )
+  ( 2 /SF )
+ )
+ ( /5054D781 R4 R7 4,7k
+  ( 1 N-000006 )
+  ( 2 N-000046 )
+ )
+ ( /5054D86D R4 R8 180
+  ( 1 N-000039 )
+  ( 2 N-000038 )
+ )
+ ( /5054D7F9 R4 R9 390
+  ( 1 /SC )
+  ( 2 N-000035 )
+ )
+ ( /5054D7F7 R4 R10 390
+  ( 1 /SE )
+  ( 2 N-000033 )
+ )
+ ( /5054D7FA R4 R11 390
+  ( 1 /SDP )
+  ( 2 N-000036 )
+ )
+ ( /5054D7F8 R4 R12 390
+  ( 1 /SD )
+  ( 2 N-000034 )
+ )
+ ( /5054D5A4 R4 R13 220
+  ( 1 N-000044 )
+  ( 2 N-000041 )
+ )
+ ( /5054D5BB R4 R14 10k
+  ( 1 N-000041 )
+  ( 2 GND )
+ )
+ ( /50550A77 R4 R15 4,7k
+  ( 1 N-000013 )
+  ( 2 N-000012 )
+ )
+ ( /50550A76 R4 R16 180
+  ( 1 N-000014 )
+  ( 2 N-000019 )
+ )
+ ( /5054D5AD R4 R17 220
+  ( 1 N-000030 )
+  ( 2 N-000042 )
+ )
+ ( /5054D5B8 R4 R18 10k
+  ( 1 N-000042 )
+  ( 2 GND )
+ )
+ ( /5054D5B3 R4 R19 220
+  ( 1 N-000045 )
+  ( 2 N-000043 )
+ )
+ ( /5054D5B5 R4 R20 10k
+  ( 1 N-000043 )
+  ( 2 GND )
+ )
+ ( /50550A8C R4 R21 4,7k
+  ( 1 N-000009 )
+  ( 2 N-000021 )
+ )
+ ( /50550A8D R4 R22 180
+  ( 1 N-000010 )
+  ( 2 N-000008 )
+ )
+ ( /5055C08C R4 R23 1k
+  ( 1 N-000054 )
+  ( 2 GND )
+ )
+ ( /5059CBA8 R4 R24 1k
+  ( 1 N-000049 )
+  ( 2 GND )
+ )
+ ( /5059CB93 R4 R25 1k
+  ( 1 N-000048 )
+  ( 2 GND )
+ )
+ ( /5054D36E SIL-2 SW1 SW_PUSH
+  ( 1 N-000041 )
+  ( 2 /VDD )
+ )
+ ( /5054D371 SIL-2 SW2 SW_PUSH
+  ( 1 N-000042 )
+  ( 2 /VDD )
+ )
+ ( /5054D373 SIL-2 SW3 SW_PUSH
+  ( 1 N-000043 )
+  ( 2 /VDD )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D4
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component Q1
+ TO92-n
+$endlist
+$component Q2
+ TO92-n
+$endlist
+$component Q3
+ TO92-n
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R14
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R15
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R16
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R19
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R22
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
